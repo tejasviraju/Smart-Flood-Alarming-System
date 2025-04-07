@@ -1,0 +1,41 @@
+# Smart Flood Alarming System
+## Overview
+Smart Flood Alarming System is designed to monitor water levels using sensors and trigger alarms when potential flood conditions are detected. The system also supports additional notification features, such as SMS alerts, for early warning.
+## Project Structure
+- *src/*  
+  Contains the source code files (e.g., Arduino sketches, C files, etc.).
+- *doc/*  
+  Contains documentation files, including Code Documentation.pdf which explains the code logic, circuit diagrams, and project overview.
+- README.md  
+  This file, providing an overview and instructions.
+## Features
+- Continuous monitoring of water levels using ultrasonic sensors.
+- Visual and audible alarms to indicate flood risks.
+- Optional SMS alert integration via a GSM module.
+- Easy-to-follow documentation provided in the PDF file.
+## Requirements
+- Arduino board or compatible microcontroller
+- Ultrasonic water level sensor
+- Buzzer and LED for alarms
+- GSM module (for SMS notifications, optional)
+- Basic electronic components (resistors, wires, breadboard, etc.)
+## Setup and Installation
+1. *Hardware Setup:*  
+   - Assemble the sensor and alarm circuits as per the provided circuit diagram in doc/Code Documentation.pdf.
+   - Ensure all connections are secure and components are correctly powered.
+2. *Software Setup:*  
+   - Open the src/SmartFloodAlarmingSystem.ino (or corresponding code file) in the Arduino IDE.
+   - Verify the code configuration matches your hardware setup (sensor pins, alarm pins, etc.).
+   - Compile and upload the code to your Arduino board.
+3. *Documentation:*  
+   - Refer to doc/Code Documentation.pdf for detailed instructions, circuit diagrams, and code walkthrough.
+## Running the Project
+- Once the code is uploaded and hardware setup is complete, the system will continuously monitor water levels.
+- In the event of rising water levels indicating potential flooding, the system will trigger both visual and audible alarms.
+- If the GSM module is integrated, SMS notifications will be sent to pre-configured phone numbers.
+## Future Enhancements
+- Integrate a mobile application for remote monitoring.
+- Add more robust error handling and sensor calibration.
+- Expand the system to support multiple sensor inputs for larger areas.
+## License
+Specify the license under which the project is distributed.
